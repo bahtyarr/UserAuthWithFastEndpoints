@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "w2XWWWDXUfOuz5UJ9BN6be9ZTQwIkEkXJNySlGfHh+j/jYyfos+7PBeB4gXHHjuQ1qvIt97fPCcW1ojFUeVbLQ==",
+  "success": true,
+  "projectFilePath": "/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/AuthProjects.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/bahtyarr/.nuget/packages/microsoft.netcore.app.ref/6.0.26/microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "/Users/bahtyarr/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.26/microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}
