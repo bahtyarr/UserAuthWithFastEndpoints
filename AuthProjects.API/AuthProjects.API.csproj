@@ -20,7 +20,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AuthProjects.Infrastructures\AuthProjects.Infrastructures.csproj" />
-    <ProjectReference Include="..\AuthProjects.Core\AuthProjects.Core.csproj" />
   </ItemGroup>
 
 </Project>

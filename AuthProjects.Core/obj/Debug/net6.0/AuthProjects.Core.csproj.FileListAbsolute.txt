@@ -9,3 +9,15 @@
 /Users/bahtyarr/Documents/Taksu Tech/AuthProjects/AuthProjects.Core/obj/Debug/net6.0/refint/AuthProjects.Core.dll
 /Users/bahtyarr/Documents/Taksu Tech/AuthProjects/AuthProjects.Core/obj/Debug/net6.0/AuthProjects.Core.pdb
 /Users/bahtyarr/Documents/Taksu Tech/AuthProjects/AuthProjects.Core/obj/Debug/net6.0/ref/AuthProjects.Core.dll
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/bin/Debug/net6.0/AuthProjects.Core.deps.json
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/bin/Debug/net6.0/AuthProjects.Core.dll
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/bin/Debug/net6.0/AuthProjects.Core.pdb
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/obj/Debug/net6.0/AuthProjects.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/obj/Debug/net6.0/AuthProjects.Core.AssemblyInfoInputs.cache
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/obj/Debug/net6.0/AuthProjects.Core.AssemblyInfo.cs
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/obj/Debug/net6.0/AuthProjects.Core.csproj.CoreCompileInputs.cache
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/obj/Debug/net6.0/AuthProjects.Core.sourcelink.json
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/obj/Debug/net6.0/AuthProjects.Core.dll
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/obj/Debug/net6.0/refint/AuthProjects.Core.dll
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/obj/Debug/net6.0/AuthProjects.Core.pdb
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/obj/Debug/net6.0/ref/AuthProjects.Core.dll

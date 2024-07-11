@@ -12,3 +12,21 @@
 /Users/bahtyarr/Documents/Taksu Tech/AuthProjects/AuthProjects.Infrastructures/obj/Debug/net6.0/AuthProjects.Infrastructures.pdb
 /Users/bahtyarr/Documents/Taksu Tech/AuthProjects/AuthProjects.Infrastructures/obj/Debug/net6.0/AuthProjects.Infrastructures.genruntimeconfig.cache
 /Users/bahtyarr/Documents/Taksu Tech/AuthProjects/AuthProjects.Infrastructures/obj/Debug/net6.0/ref/AuthProjects.Infrastructures.dll
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/obj/Debug/net6.0/AuthProjects.Infrastructures.csproj.AssemblyReference.cache
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/obj/Debug/net6.0/AuthProjects.Infrastructures.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/obj/Debug/net6.0/AuthProjects.Infrastructures.AssemblyInfoInputs.cache
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/obj/Debug/net6.0/AuthProjects.Infrastructures.AssemblyInfo.cs
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/obj/Debug/net6.0/AuthProjects.Infrastructures.csproj.CoreCompileInputs.cache
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/obj/Debug/net6.0/AuthProjects.Infrastructures.sourcelink.json
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/bin/Debug/net6.0/AuthProjects.Infrastructures.deps.json
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/bin/Debug/net6.0/AuthProjects.Infrastructures.runtimeconfig.json
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/bin/Debug/net6.0/AuthProjects.Infrastructures.dll
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/bin/Debug/net6.0/AuthProjects.Infrastructures.pdb
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/bin/Debug/net6.0/AuthProjects.Core.dll
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/bin/Debug/net6.0/AuthProjects.Core.pdb
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/obj/Debug/net6.0/AuthProjects.Infrastructures.csproj.CopyComplete
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/obj/Debug/net6.0/AuthProjects.Infrastructures.dll
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/obj/Debug/net6.0/refint/AuthProjects.Infrastructures.dll
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/obj/Debug/net6.0/AuthProjects.Infrastructures.pdb
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/obj/Debug/net6.0/AuthProjects.Infrastructures.genruntimeconfig.cache
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/obj/Debug/net6.0/ref/AuthProjects.Infrastructures.dll

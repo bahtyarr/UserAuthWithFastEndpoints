@@ -2154,6 +2154,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "AuthProjects.Core": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.6",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.EntityFrameworkCore": "6.0.7",
@@ -6648,7 +6649,6 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AuthProjects.Core >= 1.0.0",
       "AuthProjects.Infrastructures >= 1.0.0",
       "FastEndpoints >= 5.19.1",
       "FastEndpoints.Swagger >= 5.19.1",
@@ -6682,9 +6682,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/AuthProjects.Core.csproj": {
-              "projectPath": "/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/AuthProjects.Core.csproj"
-            },
             "/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/AuthProjects.Infrastructures.csproj": {
               "projectPath": "/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/AuthProjects.Infrastructures.csproj"
             }

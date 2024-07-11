@@ -26,9 +26,6 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/AuthProjects.Core.csproj": {
-                "projectPath": "/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/AuthProjects.Core.csproj"
-              },
               "/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/AuthProjects.Infrastructures.csproj": {
                 "projectPath": "/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Infrastructures/AuthProjects.Infrastructures.csproj"
               }
@@ -189,7 +186,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/AuthProjects.Core.csproj": {
+                "projectPath": "/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/AuthProjects.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

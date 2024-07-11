@@ -1042,6 +1042,16 @@
             "related": ".xml"
           }
         }
+      },
+      "AuthProjects.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AuthProjects.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AuthProjects.Core.dll": {}
+        }
       }
     }
   },
@@ -2401,10 +2411,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "AuthProjects.Core/1.0.0": {
+      "type": "project",
+      "path": "../AuthProjects.Core/AuthProjects.Core.csproj",
+      "msbuildProject": "../AuthProjects.Core/AuthProjects.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AuthProjects.Core >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.6",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.EntityFrameworkCore >= 6.0.7",
@@ -2437,7 +2453,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/AuthProjects.Core.csproj": {
+              "projectPath": "/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/AuthProjects.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

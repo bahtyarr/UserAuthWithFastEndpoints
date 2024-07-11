@@ -1,4 +1,4 @@
-using AuthProjects.Infrastructures.Domain;
+using AuthProjects.Core.Domain;
 using Microsoft.EntityFrameworkCore;
 
 namespace AuthProjects.Infrastructures

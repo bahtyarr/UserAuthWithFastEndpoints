@@ -1,4 +1,4 @@
-namespace AuthProjects.Infrastructures.Domain
+namespace AuthProjects.Core.Domain
 {
     public class User
     {

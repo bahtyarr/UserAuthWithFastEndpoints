@@ -1,6 +1,6 @@
 using AuthProjects.API.Utility;
 using AuthProjects.Infrastructures;
-using AuthProjects.Infrastructures.Domain;
+using AuthProjects.Core.Domain;
 using FastEndpoints;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;

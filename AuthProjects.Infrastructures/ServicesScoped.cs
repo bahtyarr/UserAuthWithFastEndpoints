@@ -1,4 +1,4 @@
-using AuthProjects.Infrastructures.Domain;
+using AuthProjects.Core.Domain;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
