@@ -1,4 +1,5 @@
 using AuthProjects.API.Endpoints.Users.UserProfile;
+using AuthProjects.Core.Repositories;
 using AuthProjects.Infrastructures;
 using FastEndpoints;
 using Microsoft.EntityFrameworkCore;
@@ -7,11 +8,11 @@ namespace AuthProjects.API.Endpoints.Users.UserList
 {
     public class UserListEndpoint : EndpointWithoutRequest<UserListResponse>
     {
-        private readonly CoreDbContext _context;
+        private readonly IUserRepository _userRepository;
 
-        public UserListEndpoint(CoreDbContext context)
+        public UserListEndpoint(IUserRepository userRepository)
         {
-            _context = context;
+            _userRepository = userRepository;
         }
 
         public override void Configure()
@@ -23,7 +24,7 @@ namespace AuthProjects.API.Endpoints.Users.UserList
 
         public override async Task HandleAsync(CancellationToken ct)
         {
-            var users = await _context.Users.ToListAsync(ct);
+            var users = await _userRepository.GetAllAsync();
 
             var response = new UserListResponse { Data = new List<UserProfileResponse>() };
 

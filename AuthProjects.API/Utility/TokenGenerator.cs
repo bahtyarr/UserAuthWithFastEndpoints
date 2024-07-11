@@ -1,7 +1,7 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using AuthProjects.Core.Domain;
+using AuthProjects.Core.Domains;
 using Microsoft.IdentityModel.Tokens;
 
 namespace AuthProjects.API.Utility

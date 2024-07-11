@@ -1,4 +1,4 @@
-namespace AuthProjects.Core.Constant
+namespace AuthProjects.Core.Constants
 {
     public static class RoleConstant
     {

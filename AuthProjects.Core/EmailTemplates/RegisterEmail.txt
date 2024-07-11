@@ -1,0 +1,8 @@
+<html>
+<body>
+<h2>[TITLE]</h2>
+<p>
+Your Email: [EMAIL] was complete registered as Role: [ROLE]
+</p>
+</body>
+</html>

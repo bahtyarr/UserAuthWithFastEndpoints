@@ -1,12 +1,13 @@
 using System.Security.Claims;
 using System.Text;
-using AuthProjects.Core.Constant;
+using AuthProjects.Core.Constants;
 using AuthProjects.Infrastructures;
 using FastEndpoints;
 using FastEndpoints.Swagger;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using NSwag;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -50,7 +51,27 @@ builder.Services.AddAuthorization(options =>
 });
 
 builder.Services.AddFastEndpoints();
-builder.Services.SwaggerDocument();
+builder.Services.SwaggerDocument(o =>
+{
+    o.DocumentSettings = s =>
+    {
+        s.DocumentName = "Initial-Release";
+        s.Title = "Web API";
+        s.Version = "v1.0";
+        s.AddAuth("ApiKey", new()
+        {
+            Name = "api_key",
+            In = OpenApiSecurityApiKeyLocation.Header,
+            Type = OpenApiSecuritySchemeType.ApiKey,
+        });
+        s.AddAuth("Bearer", new()
+        {
+            Type = OpenApiSecuritySchemeType.Http,
+            Scheme = JwtBearerDefaults.AuthenticationScheme,
+            BearerFormat = "JWT",
+        });
+    };
+});
 
 builder.Services.AddCors(options =>
 {

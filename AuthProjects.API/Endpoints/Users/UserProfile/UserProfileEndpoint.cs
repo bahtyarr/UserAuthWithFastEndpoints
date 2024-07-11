@@ -1,16 +1,16 @@
 using System.Security.Claims;
-using AuthProjects.Infrastructures;
+using AuthProjects.Core.Repositories;
 using FastEndpoints;
 
 namespace AuthProjects.API.Endpoints.Users.UserProfile
 {
     public class UserProfileEndpoint : EndpointWithoutRequest<UserProfileResponse>
     {
-        private readonly CoreDbContext _context;
+        private readonly IUserRepository _userRepository;
 
-        public UserProfileEndpoint(CoreDbContext context)
+        public UserProfileEndpoint(IUserRepository userRepository)
         {
-            _context = context;
+            _userRepository = userRepository;
         }
 
         public override void Configure()
@@ -22,7 +22,7 @@ namespace AuthProjects.API.Endpoints.Users.UserProfile
         public override async Task HandleAsync(CancellationToken ct)
         {
             var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
-            var user = await _context.Users.FindAsync(userId);
+            var user = await _userRepository.GetByIdAsync(userId);
 
             if (user == null)
             {

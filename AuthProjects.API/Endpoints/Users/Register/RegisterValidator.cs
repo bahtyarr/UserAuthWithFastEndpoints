@@ -1,4 +1,4 @@
-using AuthProjects.Core.Constant;
+using AuthProjects.Core.Constants;
 using FastEndpoints;
 using FluentValidation;
 

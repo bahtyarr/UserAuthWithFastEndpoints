@@ -1,9 +1,8 @@
 using AuthProjects.API.Utility;
-using AuthProjects.Infrastructures;
-using AuthProjects.Core.Domain;
+using AuthProjects.Core.Domains;
 using FastEndpoints;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
+using AuthProjects.Core.Repositories;
 
 namespace AuthProjects.API.Endpoints.Users.Login
 {
@@ -11,15 +10,15 @@ namespace AuthProjects.API.Endpoints.Users.Login
     {
         #region Properties
 
-        private readonly CoreDbContext _context;
+        private readonly IUserRepository _userRepository;
         private readonly IPasswordHasher<User> _passwordHasher;
         private readonly IConfiguration _configuration;
 
         #endregion Properties
 
-        public LoginEndpoint(CoreDbContext context, IPasswordHasher<User> passwordHasher, IConfiguration configuration)
+        public LoginEndpoint(IUserRepository userRepository, IPasswordHasher<User> passwordHasher, IConfiguration configuration)
         {
-            _context = context;
+            _userRepository = userRepository;
             _passwordHasher = passwordHasher;
             _configuration = configuration;
         }
@@ -32,7 +31,7 @@ namespace AuthProjects.API.Endpoints.Users.Login
 
         public override async Task HandleAsync(LoginRequest req, CancellationToken ct)
         {
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == req.Username, ct);
+            var user = await _userRepository.ReadAsync(item => item.Username == req.Username);
             if (user == null || _passwordHasher.VerifyHashedPassword(user, user.Password, req.Password) != PasswordVerificationResult.Success)
             {
                 await SendUnauthorizedAsync(ct);
