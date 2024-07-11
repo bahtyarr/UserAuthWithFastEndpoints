@@ -1,4 +1,5 @@
 using System.Security.Claims;
+using AuthProjects.API.Models.Users.UserProfile;
 using AuthProjects.Core.Repositories;
 using FastEndpoints;
 
@@ -35,7 +36,8 @@ namespace AuthProjects.API.Endpoints.Users.UserProfile
                 Username = user.Username,
                 Email = user.Email,
                 FirstName = user.FirstName,
-                LastName = user.LastName
+                LastName = user.LastName,
+                Role = user.Role,
             };
 
             await SendAsync(response, cancellation: ct);

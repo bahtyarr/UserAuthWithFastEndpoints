@@ -10,6 +10,5 @@ namespace AuthProjects.Infrastructures
         }
 
         public DbSet<User> Users { get; set; }
-
     }
 }

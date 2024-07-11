@@ -1,10 +1,12 @@
-namespace AuthProjects.API.Endpoints.Users.UserProfile
+namespace AuthProjects.API.Models.Users.Register
 {
-    public class UserProfileResponse
+    public class RegisterRequest
     {
         public string Username { get; set; }
+        public string Password { get; set; }
         public string Email { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string Role { get; set; }
     }
 }

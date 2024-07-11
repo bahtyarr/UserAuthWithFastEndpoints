@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using AuthProjects.Core.Repositories;
 using AuthProjects.Core.Services;
 using AuthProjects.Core.Constants;
+using AuthProjects.API.Models.Users.Register;
 
 namespace AuthProjects.API.Endpoints.Users.Register
 {

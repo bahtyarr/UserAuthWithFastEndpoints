@@ -1,8 +1,7 @@
-using AuthProjects.API.Endpoints.Users.UserProfile;
+using AuthProjects.API.Models.Users.UserList;
+using AuthProjects.API.Models.Users.UserProfile;
 using AuthProjects.Core.Repositories;
-using AuthProjects.Infrastructures;
 using FastEndpoints;
-using Microsoft.EntityFrameworkCore;
 
 namespace AuthProjects.API.Endpoints.Users.UserList
 {
@@ -35,7 +34,8 @@ namespace AuthProjects.API.Endpoints.Users.UserList
                     Username = user.Username,
                     Email = user.Email,
                     FirstName = user.FirstName,
-                    LastName = user.LastName
+                    LastName = user.LastName,
+                    Role = user.Role,
                 }));
             }
 

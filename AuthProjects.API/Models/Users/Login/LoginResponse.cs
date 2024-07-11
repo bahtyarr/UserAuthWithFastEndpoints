@@ -1,4 +1,4 @@
-namespace AuthProjects.API.Endpoints.Users.Login
+namespace AuthProjects.API.Models.Users.Login
 {
     public class LoginResponse
     {

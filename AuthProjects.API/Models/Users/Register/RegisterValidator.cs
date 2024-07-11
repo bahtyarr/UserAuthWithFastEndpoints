@@ -2,7 +2,7 @@ using AuthProjects.Core.Constants;
 using FastEndpoints;
 using FluentValidation;
 
-namespace AuthProjects.API.Endpoints.Users.Register
+namespace AuthProjects.API.Models.Users.Register
 {
     public class RegisterValidator : Validator<RegisterRequest>
     {
@@ -38,5 +38,6 @@ namespace AuthProjects.API.Endpoints.Users.Register
             .Must(role => RoleConstant.roles.Contains(role))
             .WithMessage("roles is not matches with any list");
         }
+
     }
 }

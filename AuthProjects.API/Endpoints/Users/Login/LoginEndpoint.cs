@@ -3,6 +3,7 @@ using AuthProjects.Core.Domains;
 using FastEndpoints;
 using Microsoft.AspNetCore.Identity;
 using AuthProjects.Core.Repositories;
+using AuthProjects.API.Models.Users.Login;
 
 namespace AuthProjects.API.Endpoints.Users.Login
 {
@@ -16,12 +17,16 @@ namespace AuthProjects.API.Endpoints.Users.Login
 
         #endregion Properties
 
+        #region Constructors
+
         public LoginEndpoint(IUserRepository userRepository, IPasswordHasher<User> passwordHasher, IConfiguration configuration)
         {
             _userRepository = userRepository;
             _passwordHasher = passwordHasher;
             _configuration = configuration;
         }
+
+        #endregion Constructors
 
         public override void Configure()
         {
