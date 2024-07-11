@@ -7,7 +7,11 @@ namespace AuthProjects.API.Endpoints.Users.UserProfile
 {
     public class UserProfileEndpoint : EndpointWithoutRequest<UserProfileResponse>
     {
+        #region Properties
+
         private readonly IUserRepository _userRepository;
+
+        #endregion Properties
 
         public UserProfileEndpoint(IUserRepository userRepository)
         {

@@ -21,3 +21,4 @@
 /Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/obj/Debug/net6.0/refint/AuthProjects.Core.dll
 /Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/obj/Debug/net6.0/AuthProjects.Core.pdb
 /Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/obj/Debug/net6.0/ref/AuthProjects.Core.dll
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.Core/obj/Debug/net6.0/AuthProjects.Core.csproj.AssemblyReference.cache

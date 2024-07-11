@@ -7,7 +7,11 @@ namespace AuthProjects.API.Endpoints.Users.UserList
 {
     public class UserListEndpoint : EndpointWithoutRequest<UserListResponse>
     {
+        #region Properties
+
         private readonly IUserRepository _userRepository;
+
+        #endregion Properties
 
         public UserListEndpoint(IUserRepository userRepository)
         {

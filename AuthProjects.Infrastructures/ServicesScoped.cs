@@ -1,3 +1,4 @@
+using AuthProjects.Core;
 using AuthProjects.Core.Domains;
 using AuthProjects.Core.Repositories;
 using AuthProjects.Core.Services;
@@ -17,6 +18,8 @@ namespace AuthProjects.Infrastructures
             services.AddScoped<IUserRepository, UserRepository>();
 
             services.AddScoped<IEmailService, EmailService>();
+
+            services.AddTransient<IApplyEntityConfiguration, ApplyEntityConfiguration>();
         }
     }
 }

@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AuthProjects.Infrastructures.Migrations
 {
     [DbContext(typeof(CoreDbContext))]
-    [Migration("20240710060729_CreateTable_User")]
-    partial class CreateTable_User
+    [Migration("20240711065607_InitialBuild")]
+    partial class InitialBuild
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -20,7 +20,7 @@ namespace AuthProjects.Infrastructures.Migrations
                 .HasAnnotation("ProductVersion", "6.0.7")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("AuthProjects.Infrastructures.Domain.User", b =>
+            modelBuilder.Entity("AuthProjects.Core.Domains.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -42,13 +42,17 @@ namespace AuthProjects.Infrastructures.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasColumnType("longtext");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("User");
                 });
 #pragma warning restore 612, 618
         }

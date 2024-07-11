@@ -18,7 +18,7 @@ namespace AuthProjects.Infrastructures.Migrations
                 .HasAnnotation("ProductVersion", "6.0.7")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("AuthProjects.Infrastructures.Domain.User", b =>
+            modelBuilder.Entity("AuthProjects.Core.Domains.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -50,7 +50,7 @@ namespace AuthProjects.Infrastructures.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("User");
                 });
 #pragma warning restore 612, 618
         }
