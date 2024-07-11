@@ -11,6 +11,7 @@ namespace AuthProjects.API.Endpoints.Users.Register
     public class RegisterEndpoint : Endpoint<RegisterRequest>
     {
         #region Properties
+
         private readonly IUserRepository _userRepository;
         private readonly IPasswordHasher<User> _passwordHasher;
         private readonly IEmailService _emailService;
