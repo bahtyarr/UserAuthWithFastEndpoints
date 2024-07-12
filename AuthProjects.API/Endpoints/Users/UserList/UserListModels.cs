@@ -1,7 +1,6 @@
 using AuthProjects.API.Endpoints.Users.UserProfile;
-using AuthProjects.API.Models.Users.UserProfile;
 
-namespace AuthProjects.API.Models.Users.UserList
+namespace AuthProjects.API.Endpoints.Users.UserList
 {
     public class UserListResponse
     {

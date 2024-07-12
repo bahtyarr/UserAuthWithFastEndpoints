@@ -1,5 +1,4 @@
-using AuthProjects.API.Models.Users.UserList;
-using AuthProjects.API.Models.Users.UserProfile;
+using AuthProjects.API.Endpoints.Users.UserProfile;
 using AuthProjects.Core.Repositories;
 using FastEndpoints;
 
@@ -35,6 +34,7 @@ namespace AuthProjects.API.Endpoints.Users.UserList
             {
                 response.Data.AddRange(users.Select(user => new UserProfileResponse
                 {
+                    Id = user.Id,
                     Username = user.Username,
                     Email = user.Email,
                     FirstName = user.FirstName,

@@ -1,4 +1,4 @@
-using AuthProjects.API.Models.Users;
+using AuthProjects.API.Endpoints.Users.CRUD.Models;
 using AuthProjects.Core.Domains;
 using AuthProjects.Core.Repositories;
 using FastEndpoints;
@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace AuthProjects.API.Endpoints.Users.CRUD
 {
-    public class UpdateUserEndpoint : Endpoint<UserRequest>
+    public class UpdateUserEndpoint : Endpoint<UserRequest, UserResponse, UserMapper>
     {
         #region Properties
 
@@ -40,7 +40,7 @@ namespace AuthProjects.API.Endpoints.Users.CRUD
             var user = await _userRepository.GetByIdAsync(id);
             if (user is not null)
             {
-                user.Username = req.Username;
+                user.Id = id;
                 user.Password = _passwordHasher.HashPassword(user, req.Password);
                 user.FirstName = req.FirstName;
                 user.LastName = req.LastName;

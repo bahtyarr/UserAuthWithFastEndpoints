@@ -66,14 +66,6 @@
 /Users/bahtyarr/Documents/Taksu Tech/AuthProjects/AuthProjects.API/bin/Debug/net6.0/YamlDotNet.dll
 /Users/bahtyarr/Documents/Taksu Tech/AuthProjects/AuthProjects.API/bin/Debug/net6.0/AuthProjects.Core.dll
 /Users/bahtyarr/Documents/Taksu Tech/AuthProjects/AuthProjects.API/bin/Debug/net6.0/AuthProjects.Core.pdb
-/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/obj/Debug/net6.0/AuthProjects.API.csproj.AssemblyReference.cache
-/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/obj/Debug/net6.0/AuthProjects.API.GeneratedMSBuildEditorConfig.editorconfig
-/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/obj/Debug/net6.0/AuthProjects.API.AssemblyInfoInputs.cache
-/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/obj/Debug/net6.0/AuthProjects.API.AssemblyInfo.cs
-/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/obj/Debug/net6.0/AuthProjects.API.csproj.CoreCompileInputs.cache
-/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/obj/Debug/net6.0/AuthProjects.API.MvcApplicationPartsAssemblyInfo.cs
-/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/obj/Debug/net6.0/AuthProjects.API.MvcApplicationPartsAssemblyInfo.cache
-/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/obj/Debug/net6.0/AuthProjects.API.sourcelink.json
 /Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/bin/Debug/net6.0/appsettings.Development.json
 /Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/bin/Debug/net6.0/appsettings.json
 /Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/bin/Debug/net6.0/AuthProjects.API
@@ -121,6 +113,14 @@
 /Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/bin/Debug/net6.0/AuthProjects.Infrastructures.dll
 /Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/bin/Debug/net6.0/AuthProjects.Infrastructures.pdb
 /Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/bin/Debug/net6.0/AuthProjects.Core.pdb
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/obj/Debug/net6.0/AuthProjects.API.csproj.AssemblyReference.cache
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/obj/Debug/net6.0/AuthProjects.API.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/obj/Debug/net6.0/AuthProjects.API.AssemblyInfoInputs.cache
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/obj/Debug/net6.0/AuthProjects.API.AssemblyInfo.cs
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/obj/Debug/net6.0/AuthProjects.API.csproj.CoreCompileInputs.cache
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/obj/Debug/net6.0/AuthProjects.API.MvcApplicationPartsAssemblyInfo.cs
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/obj/Debug/net6.0/AuthProjects.API.MvcApplicationPartsAssemblyInfo.cache
+/Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/obj/Debug/net6.0/AuthProjects.API.sourcelink.json
 /Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/obj/Debug/net6.0/staticwebassets.build.json
 /Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/obj/Debug/net6.0/staticwebassets.development.json
 /Users/bahtyarr/UserAuthWithFastEndpoints/AuthProjects.API/obj/Debug/net6.0/staticwebassets/msbuild.AuthProjects.API.Microsoft.AspNetCore.StaticWebAssets.props

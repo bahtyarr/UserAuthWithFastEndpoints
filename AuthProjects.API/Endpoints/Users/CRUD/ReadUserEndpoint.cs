@@ -1,4 +1,4 @@
-using AuthProjects.API.Models.Users;
+using AuthProjects.API.Endpoints.Users.CRUD.Models;
 using AuthProjects.Core.Repositories;
 using FastEndpoints;
 

@@ -3,7 +3,6 @@ using AuthProjects.Core.Domains;
 using FastEndpoints;
 using Microsoft.AspNetCore.Identity;
 using AuthProjects.Core.Repositories;
-using AuthProjects.API.Models.Users.Login;
 
 namespace AuthProjects.API.Endpoints.Users.Login
 {

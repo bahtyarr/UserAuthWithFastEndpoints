@@ -1,8 +1,19 @@
 using FastEndpoints;
 using FluentValidation;
 
-namespace AuthProjects.API.Models.Users.Login
+namespace AuthProjects.API.Endpoints.Users.Login
 {
+    public class LoginRequest
+    {
+        public string Username { get; set; }
+        public string Password { get; set; }
+    }
+
+    public class LoginResponse
+    {
+        public string Token { get; set; }
+    }
+
     public class LoginRequestValidator : Validator<LoginRequest>
     {
         public LoginRequestValidator()

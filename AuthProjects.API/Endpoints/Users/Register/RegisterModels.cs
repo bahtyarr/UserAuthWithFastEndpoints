@@ -2,11 +2,21 @@ using AuthProjects.Core.Constants;
 using FastEndpoints;
 using FluentValidation;
 
-namespace AuthProjects.API.Models.Users
+namespace AuthProjects.API.Endpoints.Users.Register
 {
-    public class UserValidator : Validator<UserRequest>
+    public class RegisterRequest
     {
-        public UserValidator()
+        public string Username { get; set; }
+        public string Password { get; set; }
+        public string Email { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Role { get; set; }
+    }
+
+    public class RegisterValidator : Validator<RegisterRequest>
+    {
+        public RegisterValidator()
         {
             RuleFor(x => x.Username)
             .NotEmpty()
@@ -39,4 +49,5 @@ namespace AuthProjects.API.Models.Users
             .WithMessage("roles is not matches with any list");
         }
     }
+
 }

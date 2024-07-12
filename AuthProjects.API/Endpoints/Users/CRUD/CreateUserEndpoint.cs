@@ -1,4 +1,4 @@
-using AuthProjects.API.Models.Users;
+using AuthProjects.API.Endpoints.Users.CRUD.Models;
 using AuthProjects.Core.Domains;
 using AuthProjects.Core.Repositories;
 using FastEndpoints;
@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace AuthProjects.API.Endpoints.Users.CRUD
 {
-    public class CreateUserEndpoint : Endpoint<UserRequest>
+    public class CreateUserEndpoint : Endpoint<UserRequest, UserResponse, UserMapper>
     {
         #region Properties
 
@@ -36,14 +36,7 @@ namespace AuthProjects.API.Endpoints.Users.CRUD
 
         public override async Task HandleAsync(UserRequest req, CancellationToken ct)
         {
-            var user = new User
-            {
-                Username = req.Username,
-                Email = req.Email,
-                FirstName = req.FirstName,
-                LastName = req.LastName,
-                Role = req.Role,
-            };
+            User user = Map.ToEntity(req);
 
             user.Password = _passwordHasher.HashPassword(user, req.Password);
 

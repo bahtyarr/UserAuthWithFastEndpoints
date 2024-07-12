@@ -4,11 +4,11 @@ using Microsoft.AspNetCore.Identity;
 using AuthProjects.Core.Repositories;
 using AuthProjects.Core.Services;
 using AuthProjects.Core.Constants;
-using AuthProjects.API.Models.Users.Register;
+using AuthProjects.API.Endpoints.Users.CRUD.Models;
 
 namespace AuthProjects.API.Endpoints.Users.Register
 {
-    public class RegisterEndpoint : Endpoint<RegisterRequest>
+    public class RegisterEndpoint : Endpoint<RegisterRequest, UserResponse, RegisterMapper>
     {
         #region Properties
 
@@ -48,15 +48,7 @@ namespace AuthProjects.API.Endpoints.Users.Register
                 return;
             }
 
-            var user = new User
-            {
-                Username = req.Username,
-                Email = req.Email,
-                FirstName = req.FirstName,
-                LastName = req.LastName,
-                Role = req.Role,
-            };
-
+            User user = Map.ToEntity(req);
             user.Password = _passwordHasher.HashPassword(user, req.Password);
 
             await _userRepository.AddAsync(user);
